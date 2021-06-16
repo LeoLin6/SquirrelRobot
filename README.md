@@ -1,1 +1,1 @@
-To edit your portfolio, please go over to the gh_pages branch!
+Hi i m leo and this is the page for my squrrel battlebot project
