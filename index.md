@@ -14,11 +14,12 @@ I wanted to create a robot to chase the squirrels and other animals in my yard a
 
 My first milestone was setting up my raspberry pi and connecting the nessary camera component. I had to install Raspiberru pi imager on the SD card and plug it into the raspberry board, then it powered up. Next, because I didn't have a spare monitor, I had to set up VNC to remotely view and control my raspberry. Now I can control the raspberry from a window on my personal computer. 
 
+Next, i want to test out object detection. So i went on nanonets, which is a AI training API website. They asked for 50 pictures of squirrels, and I learned that boxing(annotating) the squirrels in the pictures manually helps the model to be trained to identify squirrels. After the training is complete and tested for accuracy, I get a piece of python code that calls my unique nanonets model API. I can insert it anywhere in my python code and it will return me a json file stating where the squirrel is in the picture by coordinates. Nanonets has a tester itself, so I uploaded a squirrel picture I have not used before, and got a result with the squirrel annotated :) 
+
+
 <html>
   <img src=".\Squirrel\nanonet.png">
 </html>
-
-Next, i want to test out object detection. So i went on nanonets, which is a AI training API website. They asked for 50 pictures of squirrels, and I learned that boxing(annotating) the squirrels in the pictures manually helps the model to be trained to identify squirrels. After the training is complete and tested for accuracy, I get a piece of python code that calls my unique nanonets model API. I can insert it anywhere in my python code and it will return me a json file stating where the squirrel is in the picture by coordinates. Nanonets has a tester itself, so I uploaded a squirrel picture I have not used before, and got a result with the squirrel annotated :) 
 
 # Final Milestone
 My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
