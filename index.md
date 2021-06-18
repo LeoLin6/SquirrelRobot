@@ -6,7 +6,7 @@ I wanted to create a robot to chase the squirrels and other animals in my yard a
 | Leo L | Monta Vista High School | Electrical Engineering | Incoming Junior
 
 <html>
-  <img src="https://drive.google.com/file/d/1bapzkREZzFeFW1NYONJ5d7drv1Qzz6wI/view?usp=sharing">
+  <img src="https://th.bing.com/th/id/R24c9e8340b2965bc271c3e8866cfb555?rik=MsvkVa4FWkEejQ&riu=http%3a%2f%2fassets.libsyn.com%2fcontent%2f3981369&ehk=LLQvS3SXn65HrTPbEkl%2feF%2bA7pBY2IMpS%2fyjzVZdA7A%3d&risl=&pid=ImgRaw">
 </html>
 
 # First Milestone
