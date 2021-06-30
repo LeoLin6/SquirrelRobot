@@ -24,10 +24,17 @@ Next, i want to test out object detection. So i went on nanonets, which is a AI 
 
 # Second Milestone
 
-Next step is to make a robot capable of driving around the outside terrian. To suit that outdoor requirement, I chose a tank chassis for my robot. The components for this step is: wires, breadboard, battery packs, motor driver, and motors. First step I made a circuit diagram to plan out the electrical components. Basically, the raspiberry pi controls the motor driver, and the motor driver is then connected to the motors to power them. At last, I looked into the documentation for raspiberry pi to send signals using its ports, and wrote the code for the robot to run on keyboard.
+Next step is to make a robot capable of driving around the outside terrian. To suit that outdoor requirement, I chose a tank chassis for my robot. The components for this step is: wires, breadboard, battery packs, motor driver, and motors. First step I made a circuit diagram to plan out the electrical components. 
+
+
+Basically, the raspiberry pi controls the motor driver, and the motor driver is then connected to the motors to power them. At last, I looked into the documentation for raspiberry pi to send signals using its ports, and wrote the code for the robot to run on keyboard.
 <html>
   <img src=".\Squirrel\2021-06-29 09-51-23_Trim.gif">
 </html>
+
+Second milestone video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dJanGLI96_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Final Milestone
 
