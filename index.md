@@ -32,6 +32,8 @@ Next step is to make a robot capable of driving around the outside terrian. To s
 </html>
 
 Basically, the raspiberry pi controls the motor driver, and the motor driver is then connected to the motors to power them. At last, I looked into the documentation for raspiberry pi to send signals using its ports, and wrote the code for the robot to run on keyboard.
+
+Here's a 3d CAD i made in tinkercad to help me understand the build:
 <html>
   <img src=".\Squirrel\2021-06-29 09-51-23_Trim.gif">
 </html>
