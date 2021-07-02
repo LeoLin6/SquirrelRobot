@@ -1,4 +1,4 @@
-﻿# Squrrel chasing robot (object detection)
+﻿# Squirrel chasing robot (object detection)
 I wanted to create a robot to chase the squirrels and other animals in my yard away because they are eating the plants:( So the general idea is to have a outdoors wheeled vehicle that is autonomous, it drives around on its own and follow the squirrel by tracking it in the camera. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -50,3 +50,4 @@ Here's the loop part of the code:
 <html>
   <img src=".\Squirrel\carbon.png">
 </html>
+Basically, I take in a frame from the openCV livestream, sends it to nanonets; if squirrel is detected, the squirrel drives forward. Else, the robot turns to the right. (Then it loops)
