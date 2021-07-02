@@ -46,7 +46,7 @@ Second milestone video:
 
 I downloaded opencv to take frames from videos in real life, and thus detecting squirrels in real time. Using the code I've written previously for detection and driving, I combined them into a autonomous driving system. The robot will turn to the right, and constantly updating its camera to look for squirrels, once it spots one, it will move forward to scare it away. 
 
-Here's the code:
+Here's the loop part of the code:
 <html>
   <img src=".\Squirrel\carbon.png">
 </html>
