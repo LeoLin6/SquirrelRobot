@@ -52,3 +52,6 @@ Here's the loop part of the code:
   <img src=".\Squirrel\carbon.png">
 </html>
 Basically, I take in a frame from the openCV livestream, sends it to nanonets; if squirrel is detected, the squirrel drives forward. Else, the robot turns to the right. (Then it loops)
+
+Final milestone video!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/htuDrsdDRYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
