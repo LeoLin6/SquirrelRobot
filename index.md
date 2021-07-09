@@ -43,7 +43,7 @@ Second milestone video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dJanGLI96_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Final Milestone
+# Third Milestone
 
 I downloaded opencv to take frames from videos in real life, and thus detecting squirrels in real time. Using the code I've written previously for detection and driving, I combined them into a autonomous driving system. The robot will turn to the right, and constantly updating its camera to look for squirrels, once it spots one, it will move forward to scare it away. 
 
@@ -55,3 +55,6 @@ Basically, I take in a frame from the openCV livestream, sends it to nanonets; i
 
 Final milestone video!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/htuDrsdDRYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#Fourth Milestone
+
