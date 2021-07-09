@@ -64,5 +64,5 @@ I first need to understand how a robot can avoid obsocles. Similar to humans, if
 
 Circuit Diagram:
 <html>
-  <img src=".\Squirrel\Circuit Sketch_bb.png">
+  <img src=".\Squirrel\Untitled Sketch_bb.png">
 </html>
