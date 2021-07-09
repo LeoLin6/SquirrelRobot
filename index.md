@@ -58,3 +58,8 @@ Final milestone video!
 
 # Fourth Milestone
 
+I saw places for improvement, especially in autonomous driving. I wanted the robot to be less passive in one single location, instead, it would be better if the robot can nativate mine or anybody's yard by itself.  I considered line following and mapping, but object avoiding is very user friendly and requires no extra "set ups" for anyone who would use this robot. 
+
+I first need to understand how a robot can avoid obsocles. Similar to humans, if we walk to close to a wall, we would turn left or right and continue with our walk. For my robot, it needs a way to detect that distance. This will require a ultra sonic sensor. It's a cheap little sensor and the concept behind it is that it will send a sound wave, and calculate the time it takes for the wave to return to the sensor. When the sensor get its data, it needs to communicate with my raspberry pi: the brain of the robot. I really need a circuit diagram this time because there are some complications. 
+
+
