@@ -10,18 +10,37 @@ I wanted to create a robot to chase the squirrels and other animals in my yard a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L_XB21rCPek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# First Milestone
-  
 
-My first milestone was setting up my raspberry pi and connecting the nessary camera component. I had to install Raspiberru pi imager on the SD card and plug it into the raspberry board, then it powered up. Next, because I didn't have a spare monitor, I had to set up VNC to remotely view and control my raspberry. Now I can control the raspberry from a window on my personal computer. 
 
+# Fifth Milestone
+
+
+
+# Fourth Milestone
+
+I saw places for improvement, especially in autonomous driving. I wanted the robot to be less passive in one single location, instead, it would be better if the robot can nativate mine or anybody's yard by itself.  I considered line following and mapping, but object avoiding is very user friendly and requires no extra "set ups" for anyone who would use this robot. 
+
+I first need to understand how a robot can avoid obsocles. Similar to humans, if we walk to close to a wall, we would turn left or right and continue with our walk. For my robot, it needs a way to detect that distance. This will require a ultra sonic sensor. It's a cheap little sensor and the concept behind it is that it will send a sound wave, and calculate the time it takes for the wave to return to the sensor. When the sensor get its data, it needs to communicate with my raspberry pi: the brain of the robot. I really need a circuit diagram this time because there are some complications. 
+
+Circuit Diagram:
 <html>
-  <img src=".\Squirrel\nanonet.png">
+  <img src=".\Squirrel\Untitled Sketch_bb.png">
 </html>
 
-Next, i want to test out object detection. So i went on nanonets, which is a AI training API website. They asked for 50 pictures of squirrels, and I learned that boxing(annotating) the squirrels in the pictures manually helps the model to be trained to identify squirrels. After the training is complete and tested for accuracy, I get a piece of python code that calls my unique nanonets model API. I can insert it anywhere in my python code and it will return me a json file stating where the squirrel is in the picture by coordinates. Nanonets has a tester itself, so I uploaded a squirrel picture I have not used before, and got a result with the squirrel annotated :) 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/upieNQVjNqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# Third Milestone
+
+I downloaded opencv to take frames from videos in real life, and thus detecting squirrels in real time. Using the code I've written previously for detection and driving, I combined them into a autonomous driving system. The robot will turn to the right, and constantly updating its camera to look for squirrels, once it spots one, it will move forward to scare it away. 
+
+Here's the loop part of the code:
+<html>
+  <img src=".\Squirrel\carbon.png">
+</html>
+Basically, I take in a frame from the openCV livestream, sends it to nanonets; if squirrel is detected, the squirrel drives forward. Else, the robot turns to the right. (Then it loops)
+
+Third milestone video!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/htuDrsdDRYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # Second Milestone
 
@@ -43,26 +62,17 @@ Second milestone video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dJanGLI96_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Third Milestone
 
-I downloaded opencv to take frames from videos in real life, and thus detecting squirrels in real time. Using the code I've written previously for detection and driving, I combined them into a autonomous driving system. The robot will turn to the right, and constantly updating its camera to look for squirrels, once it spots one, it will move forward to scare it away. 
 
-Here's the loop part of the code:
+# First Milestone
+  
+
+My first milestone was setting up my raspberry pi and connecting the nessary camera component. I had to install Raspiberru pi imager on the SD card and plug it into the raspberry board, then it powered up. Next, because I didn't have a spare monitor, I had to set up VNC to remotely view and control my raspberry. Now I can control the raspberry from a window on my personal computer. 
+
 <html>
-  <img src=".\Squirrel\carbon.png">
+  <img src=".\Squirrel\nanonet.png">
 </html>
-Basically, I take in a frame from the openCV livestream, sends it to nanonets; if squirrel is detected, the squirrel drives forward. Else, the robot turns to the right. (Then it loops)
 
-Third milestone video!
-<iframe width="560" height="315" src="https://www.youtube.com/embed/htuDrsdDRYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Next, i want to test out object detection. So i went on nanonets, which is a AI training API website. They asked for 50 pictures of squirrels, and I learned that boxing(annotating) the squirrels in the pictures manually helps the model to be trained to identify squirrels. After the training is complete and tested for accuracy, I get a piece of python code that calls my unique nanonets model API. I can insert it anywhere in my python code and it will return me a json file stating where the squirrel is in the picture by coordinates. Nanonets has a tester itself, so I uploaded a squirrel picture I have not used before, and got a result with the squirrel annotated :) 
 
-# Fourth Milestone
-
-I saw places for improvement, especially in autonomous driving. I wanted the robot to be less passive in one single location, instead, it would be better if the robot can nativate mine or anybody's yard by itself.  I considered line following and mapping, but object avoiding is very user friendly and requires no extra "set ups" for anyone who would use this robot. 
-
-I first need to understand how a robot can avoid obsocles. Similar to humans, if we walk to close to a wall, we would turn left or right and continue with our walk. For my robot, it needs a way to detect that distance. This will require a ultra sonic sensor. It's a cheap little sensor and the concept behind it is that it will send a sound wave, and calculate the time it takes for the wave to return to the sensor. When the sensor get its data, it needs to communicate with my raspberry pi: the brain of the robot. I really need a circuit diagram this time because there are some complications. 
-
-Circuit Diagram:
-<html>
-  <img src=".\Squirrel\Untitled Sketch_bb.png">
-</html>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/upieNQVjNqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
