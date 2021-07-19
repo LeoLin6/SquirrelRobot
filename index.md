@@ -14,6 +14,16 @@ I wanted to create a robot to chase the squirrels and other animals in my yard a
 
 # Fifth Milestone
 
+After quite a lot of testing, I found out thaat obsocle avoiding would be smoother with two ultrasonic sensors. With one sensor, theres just no way for the robot to know whether to turn left or right. Using two sensors allow for both movements to happen intelligently. 
+
+And the general logic is pretty simple. One sensor faces left and the other faces to the face at 45 degrees. If the sensor on the left side detect a object closer than a set distance, the robot turn to the right. If the right side sensor detects an object, it turns to the left instead. 
+
+The most important part of code:
+
+I brought the robot out for the test, the initial results:
+
+
+
 
 
 # Fourth Milestone
