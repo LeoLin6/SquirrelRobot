@@ -27,6 +27,12 @@ Circuit Diagram:
   <img src=".\Squirrel\Untitled Sketch_bb.png">
 </html>
 
+The code for the ultrasonic sensor involved its own library to send pulses, and use a timer to record the length of the pulse. At last there's a quick math conversion for the time in microseconds to be translated into centimeters. 
+
+Here's my milestone video for the demonstration:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rguw4mpUQLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # Third Milestone
 
