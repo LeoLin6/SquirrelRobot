@@ -50,7 +50,7 @@ The code for the ultrasonic sensor involved its own library to send pulses, and 
 
 Here's my milestone video for the demonstration:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rguw4mpUQLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wah1s4gxTus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 # Third Milestone
