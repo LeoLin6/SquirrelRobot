@@ -27,10 +27,12 @@ The code:
   <img src=".\Squirrel\code2.png">
 </html>
 
-I brought the robot out for the test, the initial results:
+I brought the robot out for the test, the improvement yielded some nice results:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bq1gSsVONK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+I also added a robotic arm for the camera, as explained in the Milestone video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4Zb69NP4R2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 # Fourth Milestone
