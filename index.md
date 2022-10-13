@@ -3,7 +3,7 @@ I wanted to create a robot to chase the squirrels and other animals in my yard a
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Leo L | Monta Vista High School | Electrical Engineering | Incoming Junior
+| Leo L | Monta Vista High School | Electrical Engineering | Class of 2023
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Xa9hjKzuKOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
