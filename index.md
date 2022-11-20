@@ -3,14 +3,9 @@ I wanted to create a robot to chase the squirrels and other animals in my yard a
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Leo L | Monta Vista High School | Electrical Engineering | Class of 2023
+| Leo L | Monta Vista High School | Computer Engineering/Science | Class of 2023
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Xa9hjKzuKOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FaGb18Iz-pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L_XB21rCPek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 # Fifth Milestone
@@ -31,6 +26,8 @@ The code:
 I brought the robot out for the test, the improvement yielded some nice results:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bq1gSsVONK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FaGb18Iz-pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I also added a robotic arm for the camera, as explained in the Milestone video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4Zb69NP4R2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -67,6 +64,7 @@ Basically, I take in a frame from the openCV livestream, sends it to nanonets; i
 Third milestone video!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/htuDrsdDRYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L_XB21rCPek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Second Milestone
 
