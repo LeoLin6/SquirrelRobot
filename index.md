@@ -5,6 +5,9 @@ I wanted to create a robot to chase the squirrels and other animals in my yard a
 |:--:|:--:|:--:|:--:|
 | Leo L | Monta Vista High School | Computer Engineering/Science | Class of 2023
 
+<html>
+  <img src=".\Squirrel\squirrel-soldier.jpg">
+</html>
 
 # Fifth Milestone
 
