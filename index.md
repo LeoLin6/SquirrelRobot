@@ -47,9 +47,6 @@ Circuit Diagram:
 
 The code for the ultrasonic sensor involved its own library to send pulses, and use a timer to record the length of the pulse. At last there's a quick math conversion for the time in microseconds to be translated into centimeters. 
 
-Here's my milestone video for the demonstration:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wah1s4gxTus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 # Third Milestone
@@ -63,7 +60,6 @@ Here's the loop part of the code:
 Basically, I take in a frame from the openCV livestream, sends it to nanonets; if squirrel is detected, the squirrel drives forward. Else, the robot turns to the right. (Then it loops)
 
 Third milestone video!
-<iframe width="560" height="315" src="https://www.youtube.com/embed/htuDrsdDRYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L_XB21rCPek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -83,10 +79,6 @@ Here's a 3d CAD i made in tinkercad to help me understand the build:
   <img src=".\Squirrel\2021-06-29 09-51-23_Trim.gif">
 </html>
 
-Second milestone video:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dJanGLI96_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 # First Milestone
@@ -100,4 +92,3 @@ My first milestone was setting up my raspberry pi and connecting the nessary cam
 
 Next, i want to test out object detection. So i went on nanonets, which is a AI training API website. They asked for 50 pictures of squirrels, and I learned that boxing(annotating) the squirrels in the pictures manually helps the model to be trained to identify squirrels. After the training is complete and tested for accuracy, I get a piece of python code that calls my unique nanonets model API. I can insert it anywhere in my python code and it will return me a json file stating where the squirrel is in the picture by coordinates. Nanonets has a tester itself, so I uploaded a squirrel picture I have not used before, and got a result with the squirrel annotated :) 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/upieNQVjNqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
