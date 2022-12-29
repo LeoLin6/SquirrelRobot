@@ -13,7 +13,7 @@ I wanted to create a robot to chase the squirrels and other animals in my yard a
 
 After much testing, I found that obstacle avoidance would be smoother with two ultrasonic sensors. With one sensor, there isn't a way for the robot to know whether to turn left or right. Using two sensors allows for both movements to happen intelligently. 
 
-The code:
+Installation of two ultrasonic sensors:
 <html>
   <img src=".\Squirrel\robotfrontpic.jpg">
 </html>
