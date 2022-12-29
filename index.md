@@ -13,6 +13,11 @@ I wanted to create a robot to chase the squirrels and other animals in my yard a
 
 After much testing, I found that obstacle avoidance would be smoother with two ultrasonic sensors. With one sensor, there isn't a way for the robot to know whether to turn left or right. Using two sensors allows for both movements to happen intelligently. 
 
+The code:
+<html>
+  <img src=".\Squirrel\robotfrontpic.jpg">
+</html>
+
 And the general logic is pretty simple. One sensor faces left, and the other faces to the face at 45 degrees. If the sensor on the left side detects an object closer than a set distance, the robot turns to the right. If the right side sensor detects a thing close to it, it turns to the left instead. 
 
 The code:
