@@ -9,6 +9,13 @@ I wanted to create a robot to chase the squirrels and other animals in my yard a
   <img src=".\Squirrel\squirrel-soldier.jpg">
 </html>
 
+# Sixth Milestone
+I added a robotic turret for the camera using two servos; it turns to 6 preset locations and calls the nanonets API to do object detection. When a squirrel is detected in a certain orientation, data like "squirrel detected on the left side of the robot and in the air" will be recorded: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xa9hjKzuKOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 # Fifth Milestone
 
 After much testing, I found that obstacle avoidance would be smoother with two ultrasonic sensors. With one sensor, there isn't a way for the robot to know whether to turn left or right. Using two sensors allows for both movements to happen intelligently. 
@@ -30,10 +37,6 @@ I brought the robot out for the test indoors and outdoors, the improvement yield
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bq1gSsVONK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FaGb18Iz-pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-I also added a robotic arm for the camera; it turns to 6 preset locations and calls the nanonets API to do object detection. When a squirrel is detected in a certain orientation, data like "squirrel detected on the left side of the robot and in the air" will be recorded: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xa9hjKzuKOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 # Fourth Milestone
 
